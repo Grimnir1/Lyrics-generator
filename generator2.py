@@ -61,7 +61,7 @@ lyrics_frame = tk.Frame(window, bg="#FFFFFF")
 lyrics_frame.pack(pady=10)
 
 # Add a text box to display the lyrics
-lyrics_text = tk.Text(lyrics_frame, width=80, height=80, borderwidth=0, bg="#011222", fg="white", font=("Consolas", 14))
+lyrics_text = tk.Text(lyrics_frame, width=80, height=80, borderwidth=0, bg="pink", fg="white", font=("Consolas", 14))
 lyrics_text.pack()
 
 # Run the tkinter event loop
